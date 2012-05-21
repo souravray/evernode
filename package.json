@@ -4,13 +4,13 @@
   "homepage": "http://evernote.com/",
   "repository":
     { "type" : "git",
-      "url" : "https://github.com/flyingninjasquirrel/evernode"
+      "url" : "https://github.com/souravray/evernode"
     },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "directories" : { "lib" : ["./lib/evernote-thrift","./lib/evernode"] },
   "main": "./lib/evernode",
-  "engines": { "node": ">= 0.4.0" },
+  "engines": { "node": ">= 0.6.15" },
   "dependencies": {
-    "thrift": ">=0.7.0"
+    "thrift": "git+https://github.com/wadey/node-thrift.git#performance"
   }
 }
